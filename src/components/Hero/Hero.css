@@ -1,0 +1,36 @@
+/* Estilos Del Hero */
+
+.hero {
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+    padding-bottom: 200px;
+    background-image: url(/fondo.jpg);
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    background: #FF5722; 
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hero .btn:hover {
+    background: #E64A19;
+    transform: scale(1.05); 
+}
